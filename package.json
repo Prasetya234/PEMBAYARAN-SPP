@@ -1,0 +1,23 @@
+{
+  "name": "pembayaran-spp",
+  "version": "1.0.0",
+  "description": "membuat app pembayaran spp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prasetya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.5.0",
+    "sequelize": "^6.3.5"
+  }
+}
